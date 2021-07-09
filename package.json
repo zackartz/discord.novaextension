@@ -1,0 +1,28 @@
+{
+  "name": "discord.novaextension",
+  "version": "1.0.0",
+  "description": "a extension for nova that adds discord support",
+  "main": "index.js",
+  "dependencies": {
+    "discord-rpc": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zackartz/discord.novaextension.git"
+  },
+  "keywords": [
+    "discord",
+    "nova",
+    "editor"
+  ],
+  "author": "Zachary Myers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zackartz/discord.novaextension/issues"
+  },
+  "homepage": "https://github.com/zackartz/discord.novaextension#readme"
+}
