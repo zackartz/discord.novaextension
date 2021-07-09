@@ -1,0 +1,40 @@
+{
+    "identifier": "org.discord",
+    "name": "discord",
+    "organization": "MyOrganization",
+    "description": "Lorem ipsum, dolor sit amet.",
+    "version": "1.0",
+    "categories": ["commands"],
+    
+    "main": "main.js",
+    
+    "activationEvents": [
+        "onLanguage:html"
+    ],
+    
+    "entitlements": {
+        "requests": true
+    },
+    
+    "commands": {
+        "extensions": [
+            {
+                "title": "Open URL",
+                "command": "discord.openURL"
+            },
+            {
+                "title": "Run External Tool",
+                "command": "discord.runExternalTool"
+            }
+        ]
+    },
+    
+    "config": [
+        {
+            "key": "discord.foobar",
+            "title": "Foo the bar",
+            "type": "boolean",
+            "default": false
+        }
+    ]
+}
